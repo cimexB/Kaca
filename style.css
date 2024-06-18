@@ -1,0 +1,94 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/code-slash.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.socialna-omrezja {
+    display: flex;
+    gap: 30px;
+    padding-top: 2%;
+    padding-right: 1%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.gg-code-slash {
+    font-size: 40px;
+    color: #FF4D4D; 
+}
+
+.Naslov{
+    background-color: #5ed6f7;
+}
+
+.Naslov h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.Slika img {
+    display: block;     /*na sredino da sliko */
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto; 
+}
+
+.glavni-del {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-grow: 1;           
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: crimson;
+    color: #FFFFFF; 
+    border: none; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.footer {
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    color: yellow;
+    width: 10vmin;
+    height: 4vmin;
+    background-color: #5ed6f7;
+    box-shadow: 3px #FF4D4D;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        display: flex;
+        font-size: 20px;
+        font-weight: bolder;
+        color: yellow;
+        width: 10vmin;
+        height: 4vmin;
+        background-color: #5ed6f7;
+        text-align: center;
+        margin-right: auto;
+    }
+  }
